@@ -62,17 +62,17 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    justify-content: space-between;
 }
 .header{
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .middle{
     flex: 1;
-    margin-top: 175px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,10 +84,11 @@ body{
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.286);
     height: 90px;
+    padding-top: 5px;
+    padding-bottom: 12px;
 }
 
 .topFooter{
-    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,7 +96,10 @@ body{
 .bottomFooter{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 5px;
+}
+
+.bottomLinks{
+    margin: 12px;
 }
 
 .leftHeader{
@@ -152,4 +156,18 @@ a {
 
 a:hover{
     text-decoration: underline;
+}
+
+/* SVG practice */
+
+/* circle{
+    fill: rgb(174, 0, 255);
+} */
+
+text{
+    fill: white;
+}
+
+svg{
+    width: 30px;
 }
