@@ -49,6 +49,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* my code*/
 
+html{
+    font-size: 16px;
+}
+
 div{
     color: aliceblue;
 }
@@ -65,26 +69,87 @@ body{
 }
 
 .middle{
-    margin: auto;
+    flex: 1;
+    margin-top: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.286);
+    height: 90px;
+}
+
+.topFooter{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.leftHeader{
+    display: flex;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+
+.rightHeader{
+    display: flex;
+    margin-top: 7px;
+    margin-right: 12px;
+}
+
+a{
+    margin: 7px;
+    color: white;
 }
 
 .logo{
-    font-size: 2.5rem;
+    font-size: 6rem;
+}
+
+.searchBar{
+    background-color: rgb(103, 103, 103);
+    width: 550px;
+    height: 2.75rem;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .logoLinks{
     display: flex;
 }
 
-
-.leftHeader{
-    display: flex;
+.button{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    width: fit-content;
+    padding: 5px 15px;
+    border: none;
 }
 
-.rightHeader{
-    display: flex;
+button:hover{
+    border: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
