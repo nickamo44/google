@@ -1,13 +1,13 @@
-let searchBar = document.querySelector(".searchBar");
+let searchBarGroup = document.querySelector(".searchBarGroup");
 
-searchBar.addEventListener("mouseover", function(){
+searchBarGroup.addEventListener("mouseover", function(){
     this.style.backgroundColor = "rgb(180, 180, 180)"
 });
 
-searchBar.addEventListener("mouseleave", function(){
+searchBarGroup.addEventListener("mouseleave", function(){
     this.style.backgroundColor = "rgb(103, 103, 103)"
 });
 
-searchBar.addEventListener("click", function(){
+searchBarGroup.addEventListener("click", function(){
     this.style.backgroundColor = "rgb(71, 71, 71)"
 });

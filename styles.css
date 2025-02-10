@@ -124,16 +124,41 @@ a{
 }
 
 .searchBar{
-    background-color: rgb(103, 103, 103);
-    width: 550px;
+    background-color: transparent;
+    color: white;
+    width: 500px;
     height: 2.75rem;
+    border: none;
+}
+
+.cameraSVG{
+    padding-right: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.searchIcon{
+    padding: 0 10px;
+}
+
+.microphoneSVG{
+    margin-right: 10px;
+}
+
+.searchBarGroup{
+    background-color: rgb(103, 103, 103);
+    border: 2px solid black;
     border-radius: 25px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 550px;
 }
 
 .logoLinks{
     display: flex;
+    margin-top: 20px;
 }
 
 .button{
