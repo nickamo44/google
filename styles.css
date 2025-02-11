@@ -67,12 +67,11 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 5px;
 }
 
 .middle{
     flex: 1;
-    margin-top: 75px;
+    margin-top: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,6 +90,7 @@ body{
 .topFooter{
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .bottomFooter{
@@ -115,7 +115,7 @@ body{
 }
 
 a{
-    margin: 7px;
+    margin: 10px;
     color: white;
 }
 
@@ -195,4 +195,5 @@ text{
 
 svg{
     width: 30px;
+    height: 30px;
 }
